@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Menudifi : MonoBehaviour
+public class LoadSceneNamed : MonoBehaviour
 {
-     public void Cambiarscenee(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+     public void LoadSceneWithName(string sceneName){
+    SceneManager.LoadScene(sceneName);
     }
 }
